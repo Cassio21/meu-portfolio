@@ -1,0 +1,56 @@
+#contact {
+  display: flex;
+  flex-direction: column; /* Organiza os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  text-align: center;
+  padding: 2rem;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Ajuste no container dos links */
+.contact-links {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones */
+  align-items: center;
+  gap: 3rem; /* Adiciona espaçamento uniforme entre os ícones */
+  margin: 2rem 0;
+}
+
+/* Ajuste nos ícones */
+.contact-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #207c61;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse */
+.contact-icon:hover {
+  transform: scale(1.1);
+  color: #6f3ec3;
+}
+
+.end {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1rem;
+
+  /* margin-top: 10rem; */
+  color: #333;
+}
+
+.end a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+}
