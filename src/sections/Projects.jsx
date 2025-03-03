@@ -22,7 +22,7 @@ const projects = [
     id: 1,
     title: "OMNIFOOD",
     description:
-      "Desenvolvimento de um site para um serviço de assinatura alimentar, focado em experiência do usuário e acessibilidade. O projeto foi construído utilizando HTML, CSS e JavaScript, garantindo um design moderno e responsivo para dispositivos móveis, proporcionando uma navegação intuitiva em qualquer tela.",
+      "Desenvolvimento de um site para um serviço de assinatura alimentar, focado em experiência do usuário e acessibilidade. O projeto foi construído utilizando HTML, CSS e JavaScript.",
     image: ominfood,
     link: "https://omniifood-cassio.netlify.app/",
   },

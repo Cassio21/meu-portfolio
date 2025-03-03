@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-
   padding: 2rem;
 }
 
@@ -70,15 +69,11 @@
   }
 
   .intro h1 {
-    font-size: 2.5rem; /* Ajusta o tamanho da fonte do título */
+    font-size: 3.5rem; /* Ajusta o tamanho da fonte do título */
   }
 
   .intro h3 {
-    font-size: 1rem; /* Ajusta o tamanho da fonte do subtítulo */
-  }
-
-  .intro p {
-    font-size: 0.9rem; /* Ajusta o tamanho da fonte do parágrafo */
+    font-size: 3rem; /* Ajusta o tamanho da fonte do subtítulo */
   }
 }
 
@@ -87,7 +82,6 @@
   .container {
     width: 80%; /* Container ocupa toda a largura da tela */
     padding: 1rem; /* Reduz o padding */
-    /* Alinha os itens verticalmente */
     gap: 1rem; /* Reduz o espaçamento entre os itens */
   }
 
@@ -125,13 +119,17 @@
   }
 
   .intro p {
-    font-size: 0.7rem; /* Ajusta o parágrafo */
+    font-size: 0.9rem; /* Ajusta o parágrafo */
   }
 }
 
-@media screen and (max-width: 580px) and (min-width: 320px) {
+@media screen and (max-width: 580px) {
   .perfil_pic {
-    display: none;
+    display: block;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    margin: 0rem 2rem 26rem 4rem;
   }
 
   .intro h1 {
@@ -140,10 +138,68 @@
   }
 
   .intro h3 {
-    font-size: 0.7rem; /* Ajusta o subtítulo */
+    font-size: 1.4rem; /* Ajusta o subtítulo */
   }
 
   .intro p {
-    font-size: 0.6rem; /* Ajusta o parágrafo */
+    font-size: 0.9rem;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .perfil_pic {
+    display: block;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    margin: 0rem 2rem 23rem 3rem;
+  }
+
+  .intro h1 {
+    font-size: 1.5rem; /* Ajusta o título para telas muito
+    pequenas */
+  }
+
+  .intro h3 {
+    font-size: 1.4rem; /* Ajusta o subtítulo */
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .perfil_pic {
+    display: block;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    margin: 0rem 2rem 15rem 3rem;
+  }
+
+  .intro h1 {
+    font-size: 1.5rem; /* Ajusta o título para telas muito
+    pequenas */
+  }
+
+  .intro h3 {
+    font-size: 1.4rem; /* Ajusta o subtítulo */
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    height: 10px;
   }
 }
