@@ -43,17 +43,21 @@
 .intro h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .intro h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
   color: #323431e5;
 }
 
 .intro p {
+  display: inline;
   font-size: 1rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 /* Responsividade para telas menores que 980px */
@@ -179,24 +183,20 @@
 
 @media screen and (max-width: 320px) {
   .perfil_pic {
-    display: block;
-    position: absolute;
-    width: 5rem;
-    height: 5rem;
-    margin: 0rem 2rem 15rem 3rem;
+    display: hide;
   }
 
   .intro h1 {
-    font-size: 1.5rem; /* Ajusta o título para telas muito
+    font-size: 1.3rem; /* Ajusta o título para telas muito
     pequenas */
   }
 
   .intro h3 {
-    font-size: 1.4rem; /* Ajusta o subtítulo */
+    font-size: 1rem; /* Ajusta o subtítulo */
   }
 
   .intro p {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin: 0;
     display: flex;
     text-align: center;

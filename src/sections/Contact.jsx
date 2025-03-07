@@ -10,7 +10,7 @@ const Contact = () => {
 
       <div className="contact-links">
         <a
-          href="https://www.linkedin.com/in/cassio-cavalcanti"
+          href="https://www.linkedin.com/in/cassiotenorio/"
           target="_blank"
           rel="Linkedin"
         >
